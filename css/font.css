@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'KNPSKkomi-Regular00';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/KNPSKkomi-Regular00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*소개글*/
+
+@font-face {
+    font-family: 'GowunBatang-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*다이어리 두 번째 게시글*/
+
+@font-face {
+    font-family: 'UhBeeSe_hyun';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeSe_hyun.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*다이어리 날짜*/

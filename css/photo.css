@@ -1,0 +1,57 @@
+.photo_album {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 25px 0px 25px;
+}
+
+.photo_album_title {
+    flex: 0.2;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    border-bottom: 2px rgb(224, 224, 224) solid;
+    color: rgb(61, 193, 226);
+    font-weight: bolder;
+}
+
+.photo_album_folder {
+    flex: 0.2;
+    margin-right: 65px;
+    text-decoration: none;
+    color: rgb(46, 46, 180);
+}
+
+.item2-2-1 {
+    margin: 15px 20px 10px 40px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 480px;
+}
+
+.photo_box {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px 0px 0px;
+    font-weight: bolder;
+}
+
+.photo_title {
+    flex: 0.06;
+    background-color: rgb(233, 233, 233);
+    border-top: solid rgb(190, 190, 190) 2px;
+    text-align: center;
+}
+
+.photo_writer {
+    flex: 0.06;
+    background-color: rgb(247, 247, 247);
+    color: rgb(46, 46, 180);
+}
+
+.photo_content {
+    text-align: center;
+}
+
+#photo {
+    background-color: white;
+    color: black;
+}

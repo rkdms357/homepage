@@ -1,0 +1,144 @@
+.diary_album {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 25px 0px 25px;
+}
+
+.diary_title {
+    flex: 0.2;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    border-bottom: 2px rgb(224, 224, 224) solid;
+    color: rgb(61, 193, 226);
+    font-weight: bolder;
+}
+
+.diary_folder {
+    flex: 0.2;
+    margin-right: 65px;
+    text-decoration: none;
+    color: rgb(46, 46, 180);
+}
+
+.item2-2-1 {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px 20px 20px;
+}
+
+.date {
+    flex: 0.3;
+    display: flex;
+    flex-direction: row;
+    border: 2px rgb(202, 202, 202) solid;
+    align-items: center;
+    font-family: 'UhBeeSe_hyun';
+} /*달력 전체*/
+
+.today {
+    flex: 0.2;
+    padding: 5px 0px 5px 0px;
+    border-right: 2px rgb(202, 202, 202) dotted;
+    text-align: center;
+    font-size: 10pt;
+}
+
+.today_date {
+    color: rgb(40, 157, 253);
+    font-weight: bolder;
+    font-size: 25pt;
+}
+
+.today_day {
+    margin-top: -7px;
+    color: rgb(182, 182, 182);
+    font-weight: bolder;
+}
+
+.day {
+    flex: 0.9;
+    margin-left: 12px;
+    word-spacing: 8px;
+}
+
+.saturday {
+    color:rgb(0, 26, 255);
+    font-weight: bolder;
+}
+
+.sunday {
+    color:rgb(255, 0, 0);
+    font-weight: bolder;
+}
+
+.item2-2-1-1 {
+    margin-top: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 365px;
+}
+
+.diary_box {
+    margin: 0px 20px 20px 0px;
+    border: 2px rgb(202, 202, 202) solid;
+}
+
+.diary_date {
+    padding: 10px 0px 30px 15px;
+    color: rgb(40, 157, 253);
+    font-weight: bolder;
+    font-size: 15pt;
+    font-family: 'UhBeeSe_hyun';
+}
+
+.diary_content, .diary2_content {
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.purple_point {
+    color: rgb(159, 43, 226);
+    font-size: 30pt;
+}
+
+.black_point2 {
+    color: black;
+    font-size: 45pt;
+}
+
+.black_point1 {
+    color: black;
+}
+
+.diary2_content {
+    color: rgb(252, 136, 227);
+    font-family: 'GowunBatang-Regular';
+    font-size: 20pt;
+    font-weight: bolder;
+    line-height: 45px;
+}
+
+.secret {
+    position: relative;
+    left: 220px;
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: white;
+    text-align: center;
+    font-family: 'UhBeeSe_hyun';
+    transition: 0.2s;
+}
+
+.secret:hover {
+    color: black;
+}
+
+#secret_box {
+    display: none;
+}
+
+#diary {
+    background-color: white;
+    color: black;
+}

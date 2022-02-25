@@ -1,0 +1,209 @@
+.picture {
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+
+.text {
+    position: relative;
+    top: -25px;
+    text-align: center;
+    font-family: 'KNPSKkomi-Regular00';
+} /*소개*/
+
+.name {
+    position: relative;
+    top: 20px;
+    left: 24px;
+    font-size: 12pt;
+    font-weight: bolder;
+    color: rgb(46, 46, 180);
+}
+
+.btn-group {
+    position: relative;
+    top: 25px;
+    left: 27px;
+    display: inline-block;
+}
+
+.dropbtn {
+    padding-left: 4px;
+    width: 190px;
+    background-color: white;
+    border-radius: 2px;
+    border: 1px rgb(202, 202, 202) solid;
+    text-align: left;
+} /*파도타기*/
+
+.arrow {
+    position: absolute;
+    top: 4px;
+    left: 170px;
+    width: 13px;
+    height: 13px;
+    background-color: white;
+    border: 1.7px rgb(184, 184, 184) solid;
+    border-radius: 5px;
+    color: gray;
+    font-size: 0.5pt;
+    text-align: center;
+}
+
+.dropdown-menu {
+    display: none;
+    margin-top: 0px;
+}
+
+.btn-group:hover .dropdown-menu{
+    display: block;
+} /*파도타기에 마우스를 올려놓으면*/
+
+.dropdown-menu a:hover {
+    background-color: rgb(233, 233, 233);
+} /*바로가기에 마우스를 올려놓으면*/
+
+.dropdown-item {
+    display: block;
+    padding: 4px;
+    background-color: white;
+    text-align: left;
+    font-size: 10pt;
+    color: black;
+} /*바로가기*/
+
+.item2-2-1 {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 20px 10px 40px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 480px;
+}
+
+.bookcover a {
+    text-decoration: none;
+} /*하이퍼링크 밑줄 없애기*/
+
+.updated_news { 
+    flex: 0.05;
+    margin-bottom: 4px;
+    color: rgb(61, 193, 226);
+    font-weight: bolder;
+} /*Updated news*/
+
+.updated_news_box {
+    flex: 0.3;
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+} 
+
+.updated_news_box1 {
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    border-top: 2px rgb(224, 224, 224) solid;
+} /*실선 네모*/
+
+.updated_news_box1-1 {
+    flex: 0.3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} /*1*/
+
+.updated_news_box1-1_box {
+    flex: 0.26;
+    padding-bottom: 1px;
+    background-color: rgb(231, 175, 111);
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+} /*다이어리*/
+
+.updated_news_box1-1_text, .updated_news_box1-2_text {
+    flex: 0.75;
+    margin-left: 4px;
+    color: black;
+}
+
+.updated_news_box1-2 {
+    flex: 0.3;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3px;
+    align-items: center;
+} /*2*/
+
+.updated_news_box1-2_box {
+    flex: 0.2;
+    padding-bottom: 1px;
+    background-color: rgb(231, 108, 91);
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+} /*사진첩*/
+
+.updated_news_box2 {
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    margin-left: 13px;
+} /*점선 네모*/
+
+.updated_news_box2-1{
+    flex: 0.5;
+    padding: 4px 0px 4px 7px;
+    border-top: 2px rgb(211, 211, 211) dotted;
+    color: rgb(87, 87, 87);
+} /*점선-다이어리, 방명록*/
+
+.updated_news_box2-2 {
+    flex: 0.5;
+    padding: 4px 0px 4px 7px;
+    border-top: 2px rgb(211, 211, 211) dotted;
+    border-bottom: 2px rgb(211, 211, 211) dotted;
+    color: rgb(87, 87, 87);
+} /*점선-사진첩*/
+
+.category {
+    margin-right: 25px;
+}
+
+.blue_point {
+    color: rgb(34, 82, 170);
+    font-size: 11pt;
+    font-weight: bolder;
+} /*게시글 수*/
+
+.photo_story {
+    flex: 0.05;
+    margin: 10px 20px 0px 0px;
+    padding-bottom: 4px;
+    border-bottom: 2px rgb(224, 224, 224) solid;
+    color: rgb(90, 189, 241);
+    font-weight: bolder;
+} /*Photo story*/
+
+.miniroom {
+    flex: 0.01;
+    display: flex;
+    flex-direction: row;
+    margin: 10px 20px 0px 0px;
+    padding-bottom: 4px;
+    border-bottom: 2px rgb(224, 224, 224) solid;
+    color: rgb(90, 189, 241);
+    font-weight: bolder;
+} /*Miniroom+제목*/
+
+.miniroom-1 {
+    flex: 0.5;
+} /*Miniroom*/
+
+.miniroom-2 {
+    flex: 0.5;
+    text-align: right;
+    font-size: 13pt;
+} /*Miniroom 제목*/
